@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quản lý Tour - Admin</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/tour-admin.css">
+</head>
+<body>
+    <!-- Nút vào trang admin -->
+ <a href="admin.html" class="btn-admin"> Quay lại</a>
+
+  <header class="admin-header">
+    <h1> Quản lý Tour - DAV Travel</h1>
+  </header>
+
+  <main class="admin-container">
+    <section class="form-section">
+      <h2> Thêm / Cập nhật Tour</h2>
+      <form id="tourForm">
+        <input type="hidden" id="tourId">
+        <label>Tên tour:</label>
+        <input type="text" id="name" required>
+
+        <label>Mô tả:</label>
+        <textarea id="description" required></textarea>
+
+        <label>Giá (VND):</label>
+        <input type="number" id="price" required>
+
+        <label>Hình ảnh (URL):</label>
+        <input type="text" id="image" required>
+
+        <label>Tour nổi bật?</label>
+        <select id="highlight">
+          <option value="false">Không</option>
+          <option value="true">Có</option>
+        </select>
+
+        <button type="submit" id="saveBtn">Lưu tour</button>
+      </form>
+    </section>
+
+    <section class="table-section">
+      <h2> Danh sách Tour</h2>
+      <table id="tourTable">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Tên tour</th>
+            <th>Giá</th>
+            <th>Nổi bật</th>
+            <th>Thao tác</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="../javascript/tour-admin.js"></script>
+</body>
+</html>

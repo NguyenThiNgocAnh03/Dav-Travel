@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đăng nhập / Đăng ký - DAV Travel</title>
+  <link rel="stylesheet" href="../css/Homepage.css">
+  <link rel="stylesheet" href="../css/user.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo-box">
+      <img src="../image/logo.jpg" alt="DAV Travel Logo">
+      <h1>DAV Travel</h1>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="homepage.html">Trang chủ</a></li>
+        <li><a href="tours.html">Tour</a></li>
+        <li><a href="history.html">Lịch sử</a></li>
+        <li><a href="contact.html">Liên hệ</a></li>
+      </ul>
+    </nav>
+    <div class="auth-buttons" id="authArea">
+  <!-- Khi chưa đăng nhập -->
+  <button class="btn-auth" id="loginBtn">
+    <a href="user.html?mode=login">Đăng nhập</a>
+  </button>
+  <button class="btn-auth" id="registerBtn">
+    <a href="user.html?mode=register">Đăng ký</a>
+  </button>
+
+  <!-- Khi đã đăng nhập -->
+  <div class="user-menu" id="userMenu" style="display: none;">
+    <i id="user-icon" class="bi bi-person-circle user-icon"></i>
+    <div class="user-info">
+      <span id="username"></span>
+      <button id="logoutBtn">Đăng xuất</button>
+    </div>
+  </div>
+</div>
+
+  </header>
+
+  <div class="form-container">
+  <!-- Form đăng nhập -->
+  <form class="login-form">
+    <h2>Đăng nhập</h2>
+    <input type="text" id="signinEmail" placeholder="Tên tài khoản" required>
+    <input type="password" id="signinPassword" placeholder="Mật khẩu" required>
+    <button type="submit">Đăng nhập</button>
+    <p>Chưa có tài khoản? <a href="#" class="switch-form">Đăng ký ngay</a></p>
+  </form>
+
+  <!-- Form đăng ký -->
+  <form class="register-form" style="display:none;">
+    <h2>Đăng ký</h2>
+    <input type="text" id="fullname" placeholder="Tên tài khoản" required>
+    <input type="text" id="registerEmail" placeholder="Email hoặc số điện thoại" required>
+
+    <input type="password" id="registerPassword" placeholder="Mật khẩu" required>
+    <button type="submit">Đăng ký</button>
+    <p>Đã có tài khoản? <a href="#" class="switch-form">Đăng nhập</a></p>
+  </form>
+</div>
+
+
+  <script src="../javascript/user.js"></script>
+  <script src="../javascript/auth.js"></script>
+</body>
+</html>

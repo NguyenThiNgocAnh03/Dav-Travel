@@ -1,0 +1,709 @@
+{
+  "tours": [
+    {
+      "id": "1",
+      "name": "Khám phá Hạ Long 3N2Đ",
+      "region": "Miền Bắc",
+      "price": 3200000,
+      "image": "https://statics.vinpearl.com/kinh-nghiem-du-lich-ha-long-1_1674039271.jpg",
+      "description": "Vịnh Hạ Long – kỳ quan thiên nhiên thế giới, du thuyền sang trọng.",
+      "duration": "3N2Đ",
+      "rating": 4.7,
+      "maxPeople": 20,
+      "itinerary": [
+        {
+          "day": "Ngày 1",
+          "title": "Hà Nội – Hạ Long",
+          "activities": [
+            "Khởi hành từ Hà Nội",
+            "Nhận phòng du thuyền",
+            "Tham quan Động Thiên Cung"
+          ]
+        },
+        {
+          "day": "Ngày 2",
+          "title": "Khám phá vịnh",
+          "activities": [
+            "Đảo Titop",
+            "Chèo kayak",
+            "Ăn tối trên du thuyền"
+          ]
+        },
+        {
+          "day": "Ngày 3",
+          "title": "Trở về",
+          "activities": [
+            "Ngắm bình minh",
+            "Ăn sáng",
+            "Về Hà Nội"
+          ]
+        }
+      ]
+    }, 
+    {
+      "id": "2",
+      "name": "Sapa – Fansipan 4N3Đ",
+      "region": "Miền Bắc",
+      "price": 3800000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGAnVqnO8zkijib-B1CuiRqVHSG3U6ULiqDQ&s",
+      "description": "Khám phá thị trấn Sapa, leo Fansipan – nóc nhà Đông Dương.",
+      "duration": "4N3Đ",
+      "rating": 4.6,
+      "maxPeople": 15,
+      "itinerary": [
+        {
+          "day": "Ngày 1",
+          "title": "Hà Nội – Sapa",
+          "activities": [
+            "Xe giường nằm",
+            "Check-in thị trấn Sapa"
+          ]
+        },
+        {
+          "day": "Ngày 2",
+          "title": "Fansipan",
+          "activities": [
+            "Đi cáp treo",
+            "Tham quan đỉnh Fansipan"
+          ]
+        },
+        {
+          "day": "Ngày 3",
+          "title": "Bản Cát Cát",
+          "activities": [
+            "Khám phá bản làng",
+            "Trải nghiệm văn hoá"
+          ]
+        },
+        {
+          "day": "Ngày 4",
+          "title": "Trở về",
+          "activities": [
+            "Mua đặc sản",
+            "Về Hà Nội"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Hà Nội City Tour 1N",
+      "region": "Miền Bắc",
+      "price": 1200000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQcZHDNMVQ70Y7nA9baMizg1Db2gTkQDnGJA&s",
+      "description": "Khám phá 36 phố phường, Văn Miếu, Hồ Hoàn Kiếm, ẩm thực đường phố.",
+      "duration": "1N",
+      "rating": 4.5,
+      "maxPeople": 20,
+      "itinerary": [
+        {
+          "day": "Ngày 1",
+          "title": "Thủ đô Hà Nội",
+          "activities": [
+            "Văn Miếu Quốc Tử Giám",
+            "Phố cổ Hà Nội",
+            "Thưởng thức phở"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Ninh Bình – Tràng An 2N1Đ",
+      "region": "Miền Bắc",
+      "price": 2200000,
+      "image": "https://images.vietnamtourism.gov.vn/vn/images/2021/trang_an.jpg",
+      "description": "Ngồi thuyền Tràng An, tham quan chùa Bái Đính và Tam Cốc.",
+      "duration": "2N1Đ",
+      "rating": 4.6,
+      "maxPeople": 25,
+      "highlight": true,
+      "itinerary": [
+        {
+          "day": "Ngày 1",
+          "title": "Bái Đính",
+          "activities": [
+            "Tham quan chùa Bái Đính",
+            "Ngồi thuyền Tràng An"
+          ]
+        },
+        {
+          "day": "Ngày 2",
+          "title": "Tam Cốc",
+          "activities": [
+            "Khám phá Tam Cốc",
+            "Thưởng thức đặc sản dê núi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Mộc Châu – Sơn La 3N2Đ",
+      "region": "Miền Bắc",
+      "price": 2800000,
+      "image": "https://motogo.vn/wp-content/uploads/2020/02/camnhi-181009011020-tong-quan-ve-moc-chau-son-la.jpg",
+      "description": "Đồi chè, thác Dải Yếm, vườn hoa mận, bản làng dân tộc.",
+      "duration": "3N2Đ",
+      "maxPeople": 20,
+      "rating": 4.7,
+      "itinerary": [
+        {
+          "day": "Ngày 1",
+          "title": "Đồi chè",
+          "activities": [
+            "Đồi chè trái tim",
+            "Trang trại bò sữa"
+          ]
+        },
+        {
+          "day": "Ngày 2",
+          "title": "Thác Dải Yếm",
+          "activities": [
+            "Tham quan thác",
+            "Cầu kính Mộc Châu"
+          ]
+        },
+        {
+          "day": "Ngày 3",
+          "title": "Bản làng",
+          "activities": [
+            "Chụp ảnh vườn mận",
+            "Mua đặc sản"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Huế – Kinh Thành Cố Đô 3N2Đ",
+      "region": "Miền Trung",
+      "price": 3000000,
+      "image": "https://media.vietravel.com/images/Content/dia-diem-du-lich-hue-01.jpg",
+      "description": "Đại Nội, lăng tẩm, sông Hương, ca Huế.",
+      "duration": "3N2Đ",
+      "rating": 4.6,
+      "highlight": true,
+      "maxPeople": 22,
+      "itinerary": [
+        {
+          "day": "Ngày 1",
+          "title": "Đại Nội",
+          "activities": [
+            "Tham quan Hoàng thành",
+            "Nghe ca Huế"
+          ]
+        },
+        {
+          "day": "Ngày 2",
+          "title": "Lăng Tự Đức – Khải Định",
+          "activities": [
+            "Khám phá lăng tẩm",
+            "Chùa Thiên Mụ"
+          ]
+        },
+        {
+          "day": "Ngày 3",
+          "title": "Tiễn khách",
+          "activities": [
+            "Chợ Đông Ba",
+            "Mua quà"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Đà Nẵng – Hội An 4N3Đ",
+      "region": "Miền Trung",
+      "price": 4500000,
+      "image": "https://vcdn1-dulich.vnecdn.net/2022/06/03/cauvang-1654247842-9403-1654247849.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Swd6JjpStebEzT6WARcoOA",
+      "description": "Check-in Cầu Vàng, Bà Nà Hills, phố cổ Hội An.",
+      "duration": "4N3Đ",
+      "rating": 4.8,
+      "maxPeople": 20,
+      "itinerary": [
+        {
+          "day": "Ngày 1",
+          "title": "Đà Nẵng",
+          "activities": [
+            "Biển Mỹ Khê",
+            "Cầu Rồng"
+          ]
+        },
+        {
+          "day": "Ngày 2",
+          "title": "Ngũ Hành Sơn – Hội An",
+          "activities": [
+            "Khám phá Ngũ Hành Sơn",
+            "Tham quan Hội An"
+          ]
+        },
+        {
+          "day": "Ngày 3",
+          "title": "Bà Nà Hills",
+          "activities": [
+            "Cáp treo",
+            "Cầu Vàng"
+          ]
+        },
+        {
+          "day": "Ngày 4",
+          "title": "Tiễn khách",
+          "activities": [
+            "Mua quà chợ Hàn",
+            "Ra sân bay"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Phong Nha – Kẻ Bàng 3N2Đ",
+      "region": "Miền Trung",
+      "price": 2800000,
+      "image": "https://file3.qdnd.vn/data/images/3/2018/09/23/minhanh/phongnha3_fixt_crps.jpg?w=500",
+      "description": "Khám phá hang động kỳ vĩ, sông Son, thiên nhiên hoang sơ.",
+      "duration": "3N2Đ",
+      "rating": 4.9,
+      "highlight": true,
+      "maxPeople": 15,
+      "itinerary": [
+        {
+          "day": "Ngày 1",
+          "title": "Động Phong Nha",
+          "activities": [
+            "Đi thuyền sông Son",
+            "Tham quan hang động"
+          ]
+        },
+        {
+          "day": "Ngày 2",
+          "title": "Hang Tiên Sơn",
+          "activities": [
+            "Khám phá hang động",
+            "BBQ dã ngoại"
+          ]
+        },
+        {
+          "day": "Ngày 3",
+          "title": "Trở về",
+          "activities": [
+            "Suối Nước Moọc",
+            "Tiễn khách"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Nha Trang Biển Xanh 4N3Đ",
+      "region": "Miền Nam",
+      "price": 4000000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLm7lygOHy-w4QwfzEYHClafql-C4H9QhiNw&s",
+      "description": "Tắm biển, Vinpearl Land, đảo Bình Ba.",
+      "duration": "4N3Đ",
+      "rating": 4.7,
+      "maxPeople": 20,
+      "itinerary": [
+        {
+          "day": "Ngày 1",
+          "title": "Biển Nha Trang",
+          "activities": [
+            "Tắm biển",
+            "Hải sản"
+          ]
+        },
+        {
+          "day": "Ngày 2",
+          "title": "Vinpearl Land",
+          "activities": [
+            "Cáp treo vượt biển",
+            "Công viên giải trí"
+          ]
+        },
+        {
+          "day": "Ngày 3",
+          "title": "Đảo Bình Ba",
+          "activities": [
+            "Lặn biển",
+            "BBQ hải sản"
+          ]
+        },
+        {
+          "day": "Ngày 4",
+          "title": "Kết thúc",
+          "activities": [
+            "Chợ Đầm",
+            "Ra sân bay"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Đà Lạt – Thành Phố Ngàn Hoa 3N2Đ",
+      "region": "Miền Nam",
+      "price": 3500000,
+      "image": "https://ik.imagekit.io/tvlk/blog/2023/01/canh-dep-da-lat-1.jpg?tr=q-70,c-at_max,w-500,h-300,dpr-2",
+      "description": "Thung lũng Tình Yêu, đồi chè Cầu Đất, chợ đêm Đà Lạt.",
+      "duration": "3N2Đ",
+      "rating": 4.8,
+      "maxPeople": 20,
+      "itinerary": [
+        {
+          "day": "Ngày 1",
+          "title": "Đà Lạt",
+          "activities": [
+            "Thung lũng Tình Yêu",
+            "Hồ Xuân Hương"
+          ]
+        },
+        {
+          "day": "Ngày 2",
+          "title": "Đồi chè",
+          "activities": [
+            "Đồi chè Cầu Đất",
+            "Trang trại rau hoa"
+          ]
+        },
+        {
+          "day": "Ngày 3",
+          "title": "Chợ Đà Lạt",
+          "activities": [
+            "Mua đặc sản",
+            "Ra sân bay"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Miền Tây Sông Nước 3N2Đ",
+      "region": "Miền Nam",
+      "price": 2800000,
+      "image": "https://media.vietravel.com/images/Content/khu-du-lich-sinh-thai-o-mien-tay-1.png",
+      "description": "Chợ nổi Cái Răng, miệt vườn trái cây, đờn ca tài tử.",
+      "duration": "3N2Đ",
+      "rating": 4.5,
+      "maxPeople": 20,
+      "itinerary": [
+        {
+          "day": "Ngày 1",
+          "title": "Cần Thơ",
+          "activities": [
+            "Chợ nổi Cái Răng",
+            "Miệt vườn trái cây"
+          ]
+        },
+        {
+          "day": "Ngày 2",
+          "title": "An Giang",
+          "activities": [
+            "Rừng tràm Trà Sư",
+            "Chùa Ông"
+          ]
+        },
+        {
+          "day": "Ngày 3",
+          "title": "Trở về",
+          "activities": [
+            "Mua đặc sản",
+            "Kết thúc"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Phú Quốc Thiên Đường 5N4Đ",
+      "region": "Miền Nam",
+      "price": 5200000,
+      "image": "https://www.vietnamvisa.org.vn/wp-content/uploads/2024/08/Phu-Quo-Island-Vietnam.jpg",
+      "description": "Biển Bãi Sao, VinWonders, Safari, Dinh Cậu.",
+      "duration": "5N4Đ",
+      "rating": 4.9,
+      "maxPeople": 20,
+      "itinerary": [
+        {
+          "day": "Ngày 1",
+          "title": "Bãi Sao",
+          "activities": [
+            "Tắm biển",
+            "Ăn hải sản"
+          ]
+        },
+        {
+          "day": "Ngày 2",
+          "title": "VinWonders",
+          "activities": [
+            "Công viên giải trí",
+            "Nhạc nước"
+          ]
+        },
+        {
+          "day": "Ngày 3",
+          "title": "Safari",
+          "activities": [
+            "Tham quan động vật"
+          ]
+        },
+        {
+          "day": "Ngày 4",
+          "title": "Đảo hoang",
+          "activities": [
+            "Lặn ngắm san hô",
+            "Tiệc BBQ"
+          ]
+        },
+        {
+          "day": "Ngày 5",
+          "title": "Tiễn khách",
+          "activities": [
+            "Mua ngọc trai",
+            "Ra sân bay"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Côn Đảo Huyền Thoại 3N2Đ",
+      "region": "Miền Nam",
+      "price": 4800000,
+      "image": "https://puolotrip.com/uploads/images/2023/09/Du-lich-con-dao-jpg.webp",
+      "description": "Tham quan nghĩa trang Hàng Dương, bãi biển Đầm Trầu.",
+      "duration": "3N2Đ",
+      "rating": 4.6,
+      "maxPeople": 20,
+      "itinerary": [
+        {
+          "day": "Ngày 1",
+          "title": "Côn Đảo",
+          "activities": [
+            "Nghĩa trang Hàng Dương",
+            "Chùa Núi Một"
+          ]
+        },
+        {
+          "day": "Ngày 2",
+          "title": "Bãi biển",
+          "activities": [
+            "Bãi Đầm Trầu",
+            "Tắm biển"
+          ]
+        },
+        {
+          "day": "Ngày 3",
+          "title": "Kết thúc",
+          "activities": [
+            "Mua hải sản",
+            "Tiễn khách"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Tây Nguyên – Buôn Ma Thuột 3N2Đ",
+      "region": "Miền Trung",
+      "price": 3100000,
+      "image": "https://hanoitourist.vn/sites/default/files/inline-images/TayNguyen-1.jpg",
+      "description": "Khám phá thác Dray Nur, hồ Lắk, văn hoá cồng chiêng.",
+      "duration": "3N2Đ",
+      "highlight": true,
+      "rating": 4.7,
+      "maxPeople": 20,
+      "itinerary": [
+        {
+          "day": "Ngày 1",
+          "title": "Buôn Ma Thuột",
+          "activities": [
+            "Bảo tàng cà phê",
+            "Chợ trung tâm"
+          ]
+        },
+        {
+          "day": "Ngày 2",
+          "title": "Thác Dray Nur",
+          "activities": [
+            "Khám phá thác",
+            "Ăn đặc sản Tây Nguyên"
+          ]
+        },
+        {
+          "day": "Ngày 3",
+          "title": "Hồ Lắk",
+          "activities": [
+            "Đi thuyền độc mộc",
+            "Trở về"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Quy Nhơn – Kỳ Co – Eo Gió 3N2Đ",
+      "region": "Miền Trung",
+      "price": 3300000,
+      "image": "https://quynhontourist.com/wp-content/uploads/2020/11/tour-ky-co-eo-gio-1-ngay-du-lich-ky-co-quy-nhon-quy-nhon-tourist.jpg",
+      "description": "Check-in Kỳ Co, Eo Gió, tắm biển Quy Nhơn.",
+      "duration": "3N2Đ",
+      "rating": 4.8,
+      "maxPeople": 20,
+      "itinerary": [
+        {
+          "day": "Ngày 1",
+          "title": "Quy Nhơn",
+          "activities": [
+            "Ghềnh Ráng",
+            "Ăn hải sản"
+          ]
+        },
+        {
+          "day": "Ngày 2",
+          "title": "Kỳ Co – Eo Gió",
+          "activities": [
+            "Tắm biển Kỳ Co",
+            "Check-in Eo Gió"
+          ]
+        },
+        {
+          "day": "Ngày 3",
+          "title": "Tiễn khách",
+          "activities": [
+            "Mua đặc sản",
+            "Ra sân bay"
+          ]
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "ngoc anh",
+      "email": "Anh@gmail.com",
+      "password": "1234567",
+      "role": "user",
+      "createdAt": "2025-10-21T02:40:31.696Z"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "userId": "1",
+      "tourId": "1",
+      "tourName": "Khám phá Hạ Long 3N2Đ",
+      "fullName": "Nguyen Thi Ngoc Anh",
+      "email": "anh@gmail.com",
+      "phone": "0909123456",
+      "quantity": 2,
+      "note": "",
+      "travelDate": "2025-10-14",
+      "status": "Đã hủy",
+      "reason": "bận"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "tourId": "2",
+      "tourName": "Sapa – Fansipan 4N3Đ",
+      "fullName": "Nguyen Thi Ngoc Anh",
+      "email": "anh@gmail.com",
+      "phone": "0909123456",
+      "quantity": 1,
+      "note": "",
+      "travelDate": "2025-10-15",
+      "status": "Đã đi",
+      "reason": ""
+    },
+    {
+      "id": "3",
+      "userId": "1",
+      "tourId": "3",
+      "tourName": "Hà Nội City Tour 1N",
+      "fullName": "ngoc anh",
+      "email": "anh@gmail.com",
+      "phone": "0909123456",
+      "quantity": 1,
+      "note": "Không đi được",
+      "travelDate": "2025-10-16",
+      "status": "Đã hủy",
+      "reason": "Không đi được"
+    },
+    {
+      "id": "1761215695846",
+      "userId": "1",
+      "tourId": "2",
+      "tourName": "Sapa – Fansipan 4N3Đ",
+      "fullName": "ngoc anh",
+      "email": "Anh@gmail.com",
+      "phone": "0799169436",
+      "quantity": 1,
+      "travelDate": "2025-10-25",
+      "note": "hhii",
+      "dateBooked": "2025-10-23",
+      "status": "Đã hủy",
+      "reason": "bận việc"
+    },
+    {
+      "id": "1761223437832",
+      "userId": "1",
+      "tourId": "2",
+      "tourName": "Sapa – Fansipan 4N3Đ",
+      "fullName": "ngoc anh",
+      "email": "Anh@gmail.com",
+      "phone": "0799169436",
+      "quantity": 5,
+      "travelDate": "2025-11-01",
+      "note": "gia đình",
+      "dateBooked": "2025-10-23",
+      "status": "Đã hủy",
+      "reason": "bận"
+    },
+    {
+      "id": "1761224638443",
+      "userId": "1",
+      "tourId": "1",
+      "tourName": "Khám phá Hạ Long 3N2Đ",
+      "fullName": "ngoc anh",
+      "email": "Anh@gmail.com",
+      "phone": "0799169436",
+      "quantity": 7,
+      "travelDate": "2025-10-31",
+      "note": "Gia đình",
+      "dateBooked": "2025-10-23",
+      "status": "Đã hủy",
+      "reason": "Bận việc đột xuất"
+    }
+  ],
+  "session": [
+    {
+      "id": "1761230460106",
+      "userId": "1",
+      "userName": "ngoc anh",
+      "userEmail": "Anh@gmail.com",
+      "isLoggedIn": true,
+      "loginTime": "2025-10-23T14:41:00.106Z"
+    }
+  ],
+  "admins": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123456",
+      "role": "admin"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "6af8",
+      "name": "Nguyễn Thị Ngọc Anh",
+      "email": "Anh@gmail.com",
+      "phone": "0799169436",
+      "message": "hihi",
+      "createdAt": "2025-10-23T13:04:48.677Z"
+    }
+  ]
+}

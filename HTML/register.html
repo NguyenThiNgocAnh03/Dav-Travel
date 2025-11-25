@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập / Đăng ký - DAV Travel</title>
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo-box">
+            <img src="../image/logo.jpg" alt="DAV Travel Logo">
+            <h1>DAV Travel</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Trang chủ</a></li>
+                <li><a href="tours.html">Tour</a></li>
+                <li><a href="history.html">Lịch sử</a></li>
+                <li><a href="contact.html">Liên hệ</a></li>
+            </ul>
+        </nav>
+
+        <div class="auth-buttons">
+            <button id="open-login">Đăng nhập</button>
+        </div>
+    </header>
+
+    <!-- Form Popup -->
+    <div class="form-container" id="form-modal">
+        <div class="form-box">
+            <!-- Nút đóng -->
+            <span class="close-btn" id="close-modal">&times;</span>
+
+            <!-- Form Đăng nhập -->
+            <form class="login-form">
+                <h2>Đăng nhập</h2>
+                <input type="text" id="signinEmail" placeholder="Email hoặc SĐT" required>
+                <input type="password" id="signinPassword" placeholder="Mật khẩu" required>
+                <button type="submit">Đăng nhập</button>
+                <p>Chưa có tài khoản? <a href="#" class="switch-form">Đăng ký ngay</a></p>
+            </form>
+
+            <!-- Form Đăng ký -->
+            <form class="register-form" style="display:none;">
+                <h2>Đăng ký</h2>
+                <input type="text" id="fullname" placeholder="Họ và tên" required>
+                <input type="text" id="registerEmail" placeholder="Email" required>
+                <input type="password" id="registerPassword" placeholder="Mật khẩu" required>
+                <button type="submit">Đăng ký</button>
+                <p>Đã có tài khoản? <a href="#" class="switch-form">Đăng nhập</a></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="../javascript/register.js"></script>
+</body>
+
+</html>

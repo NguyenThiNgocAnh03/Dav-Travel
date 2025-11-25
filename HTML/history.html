@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lịch sử Tour - DAV Travel</title>
+  <link rel="stylesheet" href="../css/History.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="logo-box">
+      <img src="../image/logo.jpg" alt="DAV Travel Logo">
+      <h1>DAV Travel</h1>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="homepage.html">Trang chủ</a></li>
+        <li><a href="tours.html">Tour</a></li>
+        <li><a href="history.html" class="active">Lịch sử</a></li>
+        <li><a href="contact.html">Liên hệ</a></li>
+      </ul>
+    </nav>
+
+    <div class="auth-buttons" id="authArea">
+    <!-- Khi chưa đăng nhập -->
+    <button class="btn-auth" id="loginBtn">
+      <a href="user.html?mode=login">Đăng nhập</a>
+    </button>
+    <button class="btn-auth" id="registerBtn">
+      <a href="user.html?mode=register">Đăng ký</a>
+    </button>
+
+    <!-- Khi đã đăng nhập -->
+    <div class="user-menu" id="userMenu" style="display: none;">
+      <i id="user-icon" class="bi bi-person-circle user-icon"></i>
+      <div class="user-info">
+        <span id="username"></span>
+        <button id="logoutBtn">Đăng xuất</button>
+      </div>
+    </div>
+  </div>
+  </header>
+
+  <!-- ===== TABS ===== -->
+  <section class="tabs">
+    <div class="tab-btn active" data-status="Đã đặt">Đã đặt</div>
+    <div class="tab-btn" data-status="Đã đi">Đã đi</div>
+    <div class="tab-btn" data-status="Đã hủy">Đã hủy</div>
+  </section>
+
+  <!-- ===== DANH SÁCH TOUR ===== -->
+  <main>
+    <div id="booked-list"></div>
+  </main>
+
+  <!-- ===== FORM HỦY TOUR ===== -->
+  <div id="cancelFormOverlay" class="overlay"></div>
+  <div id="cancelFormPopup" class="booking-form-popup">
+    <form id="cancelForm" class="booking-form">
+      <h3>Hủy Tour Du Lịch</h3>
+      <label>Họ và tên</label>
+      <input type="text" id="cancelFullName" readonly>
+      <label>Email</label>
+      <input type="email" id="cancelEmail" readonly>
+      <label>Số điện thoại</label>
+      <input type="text" id="cancelPhone" readonly>
+      <label>Lý do hủy</label>
+      <textarea id="cancelReason" rows="3" placeholder="Nhập lý do hủy" required></textarea>
+      <button type="submit">Xác nhận hủy tour</button>
+      <button type="button" id="closeCancelForm" class="cancel-btn">Đóng</button>
+    </form>
+  </div>
+
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Liên hệ</h3>
+                <p>Địa chỉ: 99 Tô Hiến Thành, Đà Nẵng, Việt Nam</p>
+                <p>Điện thoại: 0123 456 789</p>
+                <p>Email: info@davtravel.vn</p>
+            </div>
+            <div class="footer-column">
+                <h3>Chứng nhận</h3>
+                <img src="https://webmedia.com.vn/images/2021/09/logo-da-thong-bao-bo-cong-thuong-mau-xanh.png" class="cert-img">
+                <img src="https://thumbs.dreamstime.com/b/dmca-digital-millennium-copyright-act-stock-vector-dmca-digital-millennium-copyright-act-vector-133426053.jpg" class="cert-img">
+            </div>
+            <div class="footer-column">
+                <h3>Chấp nhận thanh toán</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB6YnQoM78NCEw3f--iWcGhpQFjBxfo9k6fw&s" class="pay-img">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" class="pay-img">
+                <img src="https://upload.wikimedia.org/wikipedia/vi/f/fe/MoMo_Logo.png" class="pay-img">
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>2025 DAV Travel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../javascript/history.js"></script>
+    <script src="../javascript/auth.js"></script>
+</body>
+</html>

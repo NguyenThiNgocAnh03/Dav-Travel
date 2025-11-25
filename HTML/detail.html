@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết Tour</title>
+    <link rel="stylesheet" href="../css/Detail.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="tour-name"></h1>
+        <p id="tour-region"></p>
+        <p id="tour-price"></p>
+        <p id="tour-description"></p>
+
+        <button id="bookTourBtn">Đặt tour này</button>
+
+        <!-- Form đặt tour -->
+        <form id="bookingForm">
+            <h3>Nhập thông tin cá nhân</h3>
+            <input type="text" id="fullname" placeholder="Họ và tên" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="text" id="phone" placeholder="Số điện thoại" required>
+            <input type="number" id="people" placeholder="Số người" required min="1">
+            <input type="date" id="date" required>
+            <button type="submit">Xác nhận đặt tour</button>
+        </form>
+    </div>
+
+    <script src="../javascript/detail.js"></script>
+</body>
+
+</html>

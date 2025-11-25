@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liên hệ - DAV Travel</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/contact.css">
+</head>
+
+<body>
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="logo-box">
+      <img src="../image/logo.jpg" alt="DAV Travel Logo">
+      <h1>DAV Travel</h1>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="homepage.html">Trang chủ</a></li>
+        <li><a href="tours.html">Tour</a></li>
+        <li><a href="history.html">Lịch sử</a></li>
+        <li><a href="contact.html" class="active">Liên hệ</a></li>
+      </ul>
+    </nav>
+
+    <div class="auth-buttons" id="authArea">
+      <button class="btn-auth" id="loginBtn"><a href="user.html?mode=login">Đăng nhập</a></button>
+      <button class="btn-auth" id="registerBtn"><a href="user.html?mode=register">Đăng ký</a></button>
+
+      <div class="user-menu" id="userMenu" style="display: none;">
+        <i class="bi bi-person-circle user-icon" id="user-icon"></i>
+        <div class="user-info">
+          <span id="username"></span>
+          <button id="logoutBtn">Đăng xuất</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== NỘI DUNG LIÊN HỆ ===== -->
+  <main class="contact-container">
+    <div class="contact-info">
+      <h2>Liên hệ với DAV Travel</h2>
+      <p><i class="bi bi-geo-alt"></i> 06 Tôn Thất Tùng, Đà Nẵng, Việt Nam</p>
+      <p><i class="bi bi-telephone"></i> 0123 456 789</p>
+      <p><i class="bi bi-envelope"></i> info@davtravel.vn</p>
+      <p><i class="bi bi-globe"></i> www.davtravel.vn</p>
+      <div class="social-icons">
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-tiktok"></i></a>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <h2>Gửi thông tin liên hệ</h2>
+      <form id="contactForm">
+        <label>Họ và tên</label>
+        <input type="text" id="name" placeholder="Nhập họ tên..." required>
+
+        <label>Email</label>
+        <input type="email" id="email" placeholder="Nhập email..." required>
+
+        <label>Số điện thoại</label>
+        <input type="text" id="phone" placeholder="Nhập số điện thoại..." required>
+
+        <label>Nội dung</label>
+        <textarea id="message" rows="4" placeholder="Nhập nội dung liên hệ..." required></textarea>
+
+        <button type="submit" class="btn-send">Gửi liên hệ</button>
+      </form>
+    </div>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>Liên hệ</h3>
+        <p>Địa chỉ: 06 Tôn Thất Tùng, Đà Nẵng, Việt Nam</p>
+        <p>Điện thoại: 0123 456 789</p>
+        <p>Email: info@davtravel.vn</p>
+        <div class="social-icons">
+          <a href="#"><img src="https://store-images.s-microsoft.com/image/apps.37935.9007199266245907.b029bd80-381a-4869-854f-bac6f359c5c9.91f8693c-c75b-4050-a796-63e1314d18c9?h=210" alt="Facebook"></a>
+          <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/250px-Instagram_logo_2022.svg.png" alt="Instagram"></a>
+          <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-7o9w5nKE-Scl6VfHWM3lp5dieoPClpxQBQ&s" alt="Zalo"></a>
+        </div>
+        <button class="call-btn">1900 1000</button>
+      </div>
+
+      <div class="footer-column">
+        <h3>Chứng nhận</h3>
+        <img src="https://webmedia.com.vn/images/2021/09/logo-da-thong-bao-bo-cong-thuong-mau-xanh.png" class="cert-img">
+        <img src="https://thumbs.dreamstime.com/b/dmca-digital-millennium-copyright-act-stock-vector-dmca-digital-millennium-copyright-act-vector-133426053.jpg" class="cert-img">
+      </div>
+
+      <div class="footer-column">
+        <h3>Chấp nhận thanh toán</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB6YnQoM78NCEw3f--iWcGhpQFjBxfo9k6fw&s" class="pay-img">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" class="pay-img">
+        <img src="https://upload.wikimedia.org/wikipedia/vi/f/fe/MoMo_Logo.png" class="pay-img">
+        <img src="https://yt3.googleusercontent.com/JM1m2wng0JQUgSg9ZSEvz7G4Rwo7pYb4QBYip4PAhvGRyf1D_YTbL2DdDjOy0qOXssJPdz2r7Q=s900-c-k-c0x00ffffff-no-rj" class="pay-img">
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 DAV Travel. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="../javascript/contact.js"></script>
+  <script src="../javascript/auth.js"></script>
+</body>
+</html>

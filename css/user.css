@@ -1,0 +1,78 @@
+/* Vùng chứa form đăng nhập / đăng ký */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 75vh;
+  background: #f7faff;
+}
+
+/* Khối bao quanh form */
+.form-container form {
+  background: white;
+  padding: 40px 50px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  width: 400px;
+}
+
+/* Tiêu đề form */
+.form-container h2 {
+  text-align: center;
+  color: #0078d7;
+  margin-bottom: 20px;
+}
+
+/* Mặc định ẩn form */
+.login-form,
+.register-form {
+  display: none;
+}
+
+/* Form đang hoạt động */
+.login-form.active,
+.register-form.active {
+  display: block;
+}
+
+/* Ô input */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Nút */
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+/* Dòng chữ nhỏ và link chuyển form */
+p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+a.switch-form {
+  color: #0078d7;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a.switch-form:hover {
+  text-decoration: underline;
+}

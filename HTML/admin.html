@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang Quản Trị - Admin</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/admin.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <h1>Xin chào, Quản trị viên!</h1>
+    <button id="logoutBtn" class="logout-btn">Đăng xuất</button>
+  </header>
+
+  <!-- Main -->
+  <main class="admin-container">
+    <h2>Bảng điều khiển quản trị</h2>
+    <div class="admin-buttons">
+
+      <!-- Nút Quản lý Tour -->
+      <a href="tour-admin.html" class="admin-card">
+        <i class="bi bi-airplane"></i>
+        <p>Quản lý Tour</p>
+      </a>
+
+      <!-- Nút Quản lý Người Dùng -->
+      <a href="user-admin.html" class="admin-card">
+        <i class="bi bi-people"></i>
+        <p>Quản lý Người Dùng</p>
+      </a>
+
+      <!-- Nút Hồ sơ Admin (hiện popup) -->
+      <div class="admin-card" onclick="openProfile()">
+        <i class="bi bi-person-circle"></i>
+        <p>Hồ sơ Admin</p>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Modal Hồ sơ Admin -->
+<div id="adminProfile" class="modal" aria-hidden="true">
+  <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="profileTitle">
+    <button class="close" onclick="closeProfile()" aria-label="Đóng">&times;</button>
+    <h2 id="profileTitle">Hồ sơ Admin</h2>
+     <i id="user-icon" class="bi bi-person-circle user-icon"></i>
+    <div class="profile-info">
+      <p><strong>Tên:</strong> <span id="adminName">Nguyễn Văn A</span></p>
+      <p><strong>Email:</strong> <span id="adminEmail">admin@example.com</span></p>
+      <p><strong>Chức vụ:</strong> <span id="adminRole">Super Admin</span></p>
+    </div>
+    <button class="btn" onclick="changePassword()">Đổi mật khẩu</button>
+  </div>
+</div>
+
+  <script src="../javascript/admin.js"></script>
+</body>
+</html>
